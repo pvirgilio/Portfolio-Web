@@ -8,6 +8,7 @@
 }
 
 header{
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -18,16 +19,24 @@ header{
 
 }
 
+
+
 .menu{
     padding: 10px;
     
 }
 
 .menu a{
-    text-transform: uppercase;
+    color: white;
+    
     text-decoration: none;
     margin-right: 15px;
     
+}
+
+.menu a:hover{
+    background-color: black;
+    color: wheat;
 }
 
 section.banner{
@@ -87,6 +96,7 @@ footer{
     text-align: center;
     background-color: black;
     color: wheat;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -117,11 +127,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
-
-    
+   
 }
 
 .wraper .img{

@@ -2,13 +2,25 @@
 <html lang="pt-br">
 
 <head>
-    <link rel = "shortcut icon" type = "imagem/x-icon" href = "/IMG/perfil.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="imagem/x-icon" href="/IMG/perfil.ico" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
     <script src="https://kit.fontawesome.com/dded924af1.js" crossorigin="anonymous"></script>
     <title>Portfólio Pedro Virgilio</title>
+
 </head>
 
 <body>
@@ -16,7 +28,7 @@
     <header>
         <div class="w50">
             <div class="menu">
-                <a href="">Início</a>
+                <a id="back-to-top" href="">Início</a>
                 <a href="">Sobre mim</a>
                 <a href="">Projetos</a>
             </div>
@@ -57,22 +69,44 @@
     </div>
     <div class="wraper">
 
-        <div class="img">
-            <img src="https://blog.dankicode.com/wp-content/uploads/2020/12/desenvolvedor-full-stack-em-2021.png"
-                alt="" />
-            <h3>Nenhum projeto ainda.</h3>
-        </div>
-        <div class="img">
-            <img src="https://blog.dankicode.com/wp-content/uploads/2020/12/desenvolvedor-full-stack-em-2021.png"
-                alt="" />
-            <h3>Nenhum projeto ainda.</h3>
-        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="/IMG/port_img.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Meu portfólio site.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/Pvvirg/PortfolioWeb" target="_blank" style="text-decoration: none; color: black;">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://blog.dankicode.com/wp-content/uploads/2020/12/desenvolvedor-full-stack-em-2021.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Nenhum projeto adicionado.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
     </div>
     </div>
 
     <footer>
         <p>&copy;Portfólio Pedro Virgilio-2022</p>
+        <h5>E-mail: pedrovirgilio@outlook.com.br</h5>
+        <a href="https://www.linkedin.com/in/pedro-virgilio-sousa-silva-661227209/" target="_blank"><i
+                class="textobranco fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/pdrovirgilio/" target="_blank"><i
+                class="textobranco fab fa-instagram"></i></a>
+        <a href="https://github.com/Pvvirg" target="_blank"><i class="textobranco fab fa-github"></i></a>
     </footer>
 
 </body>
