@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.menu{
+    padding: 10px;
+    
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+
+section.banner{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(/telainicio.webp);
+    background-size: cover;
+    text-align: center;
+    padding: 90px 0;
+    color: wheat;
+}
+
+.banner h2{
+    padding: 15px;
+}
+
+section.banner img{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+section.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons{
+    padding: 20px;
+    
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+
+
+.w33{
+    width: 33.3%;
+    padding:  0 10px;
+    margin: 0 auto;
+    
+}
+
+.w33 h2{
+    padding-top: 20px;
+}
+
+.w33 p{
+    padding-top: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33, .w50{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.textobranco{
+    color: rgb(192, 0, 166);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.textobranco:hover{
+    color: rgb(0, 223, 0);
+}
+
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+
+    
+}
+
+.wraper .img{
+    width: 33.3%;
+    padding: 30px;
+    margin-top: 20px;
+     
+}
+
+img{
+    max-width: 100%;
+    border-style: groove;
+    
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .wraper .img{width: 33.3%;}
+    
+}
+
+@media screen and (max-width: 768px) {
+    .wraper .img{width: 50%;}
+    
+}
+
+@media screen and (max-width: 580px) {
+    .wraper .img{width: 100%;}
+}
