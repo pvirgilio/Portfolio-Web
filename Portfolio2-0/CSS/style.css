@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(/telainicio.webp);
+    background-image: linear-gradient(to top, purple, black);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ header{
 }
 
 .menu a:hover{
-    background-color: black;
+    background-color: white;
     color: wheat;
 }
 
@@ -98,10 +98,33 @@ section.diferenciais{
     padding-top: 20px;
 }
 
+.btn-curriculo button{
+    font-size: 20px;
+    border-radius: 10px 10px 10px;
+    border-style: none;
+
+}
+
+.btn-curriculo button:hover{
+    background-color: black;
+    
+}
+
+.btn-curriculo a:hover{
+    color: purple;
+}
+
+.btn-curriculo a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
 footer{
     text-align: center;
     background-color: black;
     color: wheat;
+    background-image: linear-gradient(to bottom, purple, black);
     
 }
 
@@ -123,7 +146,7 @@ footer{
 .textobranco{
     color: rgb(192, 0, 166);
     font-size: 20px;
-    padding: 10px;
+    padding: 10px; 
 }
 
 .textobranco:hover{
@@ -134,13 +157,16 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
    
 }
+
 
 .wraper .col-md-4{
     width: 33.3%;
     padding: 30px;
     margin-top: 20px;
+    
      
 }
 
@@ -150,6 +176,8 @@ img{
     
     
 }
+
+
 
 
 
@@ -167,3 +195,6 @@ img{
 @media screen and (max-width: 580px) {
     .wraper .col-md-4{width: 100%;}
 }
+
+
+  
