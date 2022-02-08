@@ -7,6 +7,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: linear-gradient(to top, purple, black);
     background-repeat: no-repeat;
@@ -21,6 +25,7 @@ header{
     background-color: white;
     padding: 10px;
     justify-content: center;
+    align-items: center;
 
 
 }
