@@ -10,4 +10,4 @@ http.createServer(function (req, res) {
   }).listen(8080);
 
 
-  console.log('Server criado em: localhost:8080')
+  console.log('Seja bem vindo:','Server criado em: localhost:8080')
